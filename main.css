@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+/* drop down hover menu bar */
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: white;
+    }
+
+ul li {
+    width: 200px;
+    height: 40px;
+    background-color:black;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    background-color: black;
+    position: relative;
+}
+
+ul li a:hover {
+    background: orange;
+    color: black;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+/* drop down hover menu bar */
+
+
+
+
+
+
+#homepageBackground {
+    background-image: url("tronLightLinesWebp.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+#aboutmeBackground {
+    background-image: url("tronFightGif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+#u1o1Background {
+    background-image: url("tronLightRibbons.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+#u1o2Background {
+    background-image: url("tronDiscGif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+#u1o3Background {
+    background-image: url("tronLightRibbons2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+#u2o1Background {
+    background-image: url("tronBikeGif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+#contactmeBackground {
+    background-image: url("tronKeyboardGif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px 10px 20px;
+}
+
+
+.blackBox {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    border: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.pageTitle {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    color:black;
+    text-shadow: 0 0 10px white;
+}
+
+.homePageTitle {
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    text-shadow: 0 0 12px white;
+}
+
+.textCentrePage {
+    text-align: center;
+    margin: auto;
+}
