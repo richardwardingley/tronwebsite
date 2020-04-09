@@ -50,56 +50,71 @@ ul li:hover ul li {
 #homepageBackground {
     background-image: url("tronLightLinesWebp.webp");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
 #aboutmeBackground {
     background-image: url("tronFightGif.gif");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
 #u1o1Background {
     background-image: url("tronLightRibbons.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
 #u1o2Background {
     background-image: url("tronDiscGif.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
 #u1o3Background {
     background-image: url("tronLightRibbons2.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
 #u2o1Background {
     background-image: url("tronBikeGif.gif");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
 #contactmeBackground {
     background-image: url("tronKeyboardGif.gif");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 50px 10px 50px;
 }
 
+.blackBoxHomePage {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border: 20px;
+}
 
 .blackBox {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    text-align: justify;
     box-sizing: border-box;
     padding: 10px 20px 10px 20px;
     border: 20px;
@@ -132,4 +147,9 @@ h1 {
 .textCentrePage {
     text-align: center;
     margin: auto;
+}
+
+.backgroundContainer {
+    display: flex;
+    justify-content: center;
 }
